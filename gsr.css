@@ -1,0 +1,149 @@
+html {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+body {
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.top-nav-links {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 9px;
+    padding-right: 7px;
+}
+
+.top-nav-links a:last-of-type img {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: red blue green orange;
+}
+
+.nine-dots {
+    width: 25px;
+    height: 25px;
+    margin: 10px 10px 10px 2px;
+}
+
+
+.links {
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.search-lab-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.google-logo {
+    width: 290px;
+    height: auto;
+    margin: 30px;
+}
+
+.google-search {
+    display: flex;
+    flex-direction: row;
+    width: 560px;
+    height: 45px;
+    background-color: white;
+    border-radius: 35px;
+    align-items: center;
+    box-shadow: 1px 1px 6px grey
+}
+
+.google-search:hover {
+    box-shadow: 2px 2px 7px grey;
+}
+
+.google-search #search-icon {
+    width: 41px;
+    height: 35px;
+    font-size: 800px;
+}
+
+.google-search input {
+    width: 420px;
+    height: 33px;
+    border: 0;
+    outline: 0;
+    font-size: medium;
+    padding: 8px;
+}
+
+.google-search input:focus {
+    border-top: 0;
+    border-right: 1px;
+    border-bottom: 0;
+    border-left: 0;
+    border-style: solid;
+    border-color: grey;
+}
+
+.google-search .voice-search {
+    width: 22px;
+    height: 22px;
+    margin-left: 10px
+}
+
+.google-search .camera-search {
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+
+
+.main-content {
+    width: auto;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+}
+
+.shortcuts {
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+}
+
+ .shortcut {
+    width: 300px;
+    height: 90px;
+    text-align: center;
+    padding: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.shortcut:hover {
+    background-color: grey;
+    opacity: 0.5
+}
+
+.shortcut-image {
+    width: 40px;
+    height: 40px;
+}
